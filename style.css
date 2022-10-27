@@ -1,0 +1,1510 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+}
+/* Section Index */
+.content-grid
+{
+    display: grid;
+    height: 200vh;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 50% 30% 10%;
+    grid-template-areas:
+    "header"
+    "body"
+    "body2"
+    "footer";
+}
+header
+{
+
+    display: flex;
+    grid-area: header ;
+    background-color: black;
+    
+}
+.logo-text
+{
+    display: flex;
+    width: 30%;
+    height: 100%;
+}
+.logo
+{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.logo img
+{
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.text
+{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.text h2
+{
+    width: 100%;
+    
+}
+.text h2 a
+{
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+nav
+{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+}
+.nav-bar
+{
+    display: flex;
+    height: 60%;
+    width: 100%;
+}
+.nav-bar ul
+{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar ul li
+{
+    display: flex;
+    height: 50%;
+    width: 10%;
+    margin-left: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul li a:hover
+{
+    color: yellow;
+    border-bottom: 4px solid yellow;
+}
+
+.body-1
+{
+    
+    grid-area: body;
+}
+.carouselExampleIndicators
+{
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+}
+.d-block
+{
+    height: 90vh;
+}
+.body-2
+{
+    width: 100%;
+    grid-area: body2;
+}
+.content-text-body2
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.body-2 h2
+{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 50px;
+}
+.body-2 h3
+{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 25px;
+}
+.body-2 a
+{
+    width: 20%;
+    height: 10%;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+} 
+.body-2 a:hover
+{
+    color: black;
+    border-bottom: 4px solid #b7d411;
+}
+footer
+{
+    width: 100%;
+    display: flex;
+    grid-area: footer;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.footer_1
+{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+}
+.contact
+{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.contact h4
+{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+}
+.contact h4 a{
+    text-decoration: none;
+    height: 50%;
+    width: 100%;
+    color: white;
+}
+.socialnets-logos
+{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    
+    justify-content: flex-end;
+}
+.box-logos
+{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+}
+.box-logos a
+{
+    width: 100%;
+
+}
+.fa-brands
+{
+    display: flex;
+    height: 60%;
+    width: 50%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.footer_2
+{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content:center ;
+    align-items: center;
+}
+.firma
+{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.firma h4
+{
+    width: 100%;
+    text-align: center;
+}
+/* Section Coaches */
+.content-grid-coaches
+{
+    display: grid;
+    height: 200vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas:
+    "header"
+    "bodycoach"
+    "footer";
+}
+.body-coaches-grid
+{
+    grid-area: bodycoach;
+}
+.text-coach
+{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: flex-end;
+}
+.text-coach h3
+{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+.content-father-coach
+{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content-coach-box
+{
+    width: 30%;
+    height: 80%;
+}
+.imgC
+{
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+}
+.imgC img
+{
+    width: 100%;
+    height: 100%;
+}
+.textC
+{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.textC h2
+{
+    width: 50%;
+}
+.textC h3
+{
+    width: 100%;
+    
+}
+
+/* Section Register */
+.content-grid-register
+{
+    display:grid;
+    height: 200vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 50% 30% 10%;
+    grid-template-areas:
+    "header "
+    "midleregister "
+    "midleregister "
+    "footer " ;
+}
+.midle-register
+{
+    grid-area: midleregister;
+    display: grid;
+    grid-template-columns: 70% 30% ;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "spiningfuncional spam"
+    "horarios spam" ;
+    
+}
+.spinning-funcional
+{
+    grid-area: spiningfuncional;
+}
+.text-register
+{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    align-items: center;
+}
+.text-register h3
+{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.buttons-spining-funcional
+{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+}
+.funcional-botton
+{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.funcional-botton .botons
+{
+    width: 70%;
+    height: 70%;
+}
+.spinning-botton
+{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.spinning-botton .botons
+{
+    width: 70%;
+    height: 70%;
+}
+.form-register
+{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.name-login
+{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.mail-login
+{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.data-day-logn
+{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content:center;
+    align-items: flex-end;
+}
+.controls2
+{
+    height: 50%;
+    width: 70%;
+}
+.horarios
+{
+    grid-area: horarios;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 90% ;
+    grid-template-areas: 
+    "dia horario"
+    "row1 row2";
+}
+.horario
+{
+    display: flex;
+    grid-area: horario;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+.horario h3
+{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+.dia
+{
+    display: flex;
+    grid-area: dia;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.dia h3
+{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+.row1
+{
+    display: flex;
+    grid-area: row1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-right: 1px solid black;
+}
+.dias-semana
+{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.botons3d
+{
+    height: 50%;
+    width: 50%;
+}
+.botons3d:hover
+{
+    background-color: grey;
+}
+.row2
+{
+    display: flex;
+    grid-area: row2;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.horarioss
+{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.botons4h
+{
+    height: 50%;
+    width: 50%;
+}
+.botons4h:hover
+{
+    background-color: grey;
+}
+.spam
+{
+    display: flex;
+    grid-area: spam;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid black;
+}
+.img-desc
+{
+    height: 90%;
+    width: 100%;
+}
+.img-desc img
+{
+    width: 100%;
+    margin-top: 3rem;
+}
+.descuento
+{
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+.descuento h4
+{
+    height: 50%;
+    width: 100%;
+    text-align:center ;
+    font-size: 20px;
+}
+/*Section Perfil*/
+.content-grid-perfil
+{
+    display: grid;
+    height: 200vh;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas:
+    "header"
+    "bodyperfil"
+    "footer";
+}
+.content-body-perfil
+{
+    grid-area: bodyperfil;
+}
+.welcome-perfil
+{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    align-items: flex-end;
+}
+.welcome-perfil h2
+{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.father-perfil-img
+{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.content-img-perfil
+{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.content-img-perfil img
+{
+    height: 80%;
+    width: 30%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.info-cuota-content
+{
+    height: 20%;
+    width: 20%;
+}
+.info-perfil
+{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content:center;
+    align-items: center;
+    
+}
+.cuota-inicio
+{
+    display: flex;
+    height: 100%;
+    width: 20%;
+
+    justify-content: center;
+    flex-direction: column;
+    border-right: 1px solid black;
+}
+.cuota-expiracion
+{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 1px solid black;
+}
+.info-perfil ul
+{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+.info-perfil ul li
+{
+    width: 60%;
+    height: 20%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:justify;
+    border-bottom:1px solid black ;
+}
+.fecha
+{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    
+}
+.fecha2
+{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+/*Section Servicios*/
+.content-grid-Servicio
+{
+    display: grid;
+    height: 200vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas:
+    "header"
+    "bodyservicio"
+    "footer";
+}
+.body-father-servicio
+{
+    grid-area: bodyservicio;
+}
+.text-body-service
+{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+}
+.text-body-service h2
+{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 50px;
+}
+.text-body-service2
+{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+}
+.text-body-service2 h4
+{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.content-service
+{
+    display: flex;
+    height:70%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.service1
+{
+    display: flex;
+    height: 80%;
+    width: 30%;
+    border:2px solid black;
+    flex-direction: column;
+    align-items: center;
+}
+.service1 p
+{
+    font-size: 25px;
+}
+.service1 img
+{
+    height: 100%;
+    width: 100%;
+}
+/*Section Informacion*/
+.content-grid-info
+{
+    display: grid;
+    height: 200vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas:
+    "header"
+    " bodyinfo"
+    "footer";
+}
+.content-body-father
+{
+    grid-area: bodyinfo;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60% 40%;
+    grid-template-areas: 
+    "mapa mapa"
+    "form sobrenosotros "
+    ;
+}
+.mapa
+{
+    grid-area: mapa;
+}
+.mapa iframe
+{
+    height: 100%;
+    width: 100%;
+}
+.form
+{
+    display: flex;
+    grid-area: form;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-form
+{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+}
+.text-form h3
+{
+    width: 100%;
+}
+.form-register
+{
+    display: flex;
+    height:50% ;
+    width: 100%;
+    align-items: center;
+}
+.form-register .controlss
+{
+    height: 20%;
+    width: 80%;
+    margin: 2rem;
+    padding:1rem;
+}
+.controlss2
+{
+    width: 20%;
+    padding: 10px;
+}
+.controlss2:hover
+{
+    background-color: rgb(132, 130, 130);
+}
+.sobrenosotros
+{
+    display: flex;
+    grid-area: sobrenosotros;
+    flex-direction: column;
+    justify-content: center;
+}
+.question
+{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    align-items: center;
+}
+.question h3
+{
+    width: 100%;
+    text-align: center;
+
+}
+.aboutus
+{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus p
+{
+    width: 70%;
+    font-size: 20px;
+    text-align: justify;
+}
+@media screen and (max-width: 320px) 
+{
+    .logo-text
+    {
+        display: flex;
+        width: 30%;
+        height: 100%;
+    }
+    .logo
+    {
+        display: flex;
+        width: 20%;
+        height: 100%;
+    }
+    .logo img
+    {
+        height: 80%;
+        width: 80%;
+        border-radius: 50%;
+    }
+    
+    .text
+    {
+        display: flex;
+        width: 80%;
+        height: 100%;
+        align-items: center;
+    }
+    .text h2
+    {
+        width: 100%;
+        
+    }
+    .text h2 a
+    {
+        font-size: 50px;
+        text-decoration: none;
+        color: white;
+
+    }
+    nav
+    {
+        display: flex;
+        width: 70%;
+        height: 100%;
+        align-items: center;
+    }
+    .nav-bar
+    {
+        display: flex;
+        height: 60%;
+        width: 100%;
+    }
+    .nav-bar ul
+    {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-bar ul li
+    {
+        display: flex;
+        height: 50%;
+        width: 10%;
+        margin-left: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .body-2
+{
+    width: 100%;
+    grid-area: body2;
+
+}
+.content-text-body2
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.body-2 h2
+{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 40px;
+}
+.body-2 h3
+{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 25px;
+}
+.body-2 a
+{
+    width: 40%;
+} 
+}
+@media screen and (max-width: 480px) 
+{
+    .nav-bar ul li
+{
+   
+    font-size: 13px;
+   padding: 15px;
+}
+.logo
+{
+   margin-right: 0px;
+
+}
+.socialnets-logos
+{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-start;
+
+}
+.box-logos
+{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+}
+.box-logos a
+{
+    width: 100%;
+
+}
+.fa-brands
+{
+    display: flex;
+    height: 60%;
+    width: 50%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+
+}
+@media screen and (max-width: 600px) 
+{
+.nav-bar ul li
+{
+   
+    margin: 6px;
+}
+.d-block
+{
+    height: 70vh;
+}
+.socialnets-logos
+{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-start;
+
+}
+.box-logos
+{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+}
+.box-logos a
+{
+    width: 100%;
+
+}
+.fa-brands
+{
+    display: flex;
+    height: 60%;
+    width: 50%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.body-father-servicio
+{
+    grid-area: bodyservicio;
+}
+.text-body-service
+{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+}
+.text-body-service h2
+{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+.text-body-service2
+{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: flex-start;
+}
+.text-body-service2 h4
+{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.content-service
+{
+    display: flex;
+    height:70%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.service1
+{
+    display: flex;
+    height: 80%;
+    width: 30%;
+    border:2px solid black;
+    flex-direction: column;
+    align-items: center;
+}
+.service1 p
+{
+    font-size: 25px;
+}
+.service1 img
+{
+    height: 100%;
+    width: 100%;
+}
+.service1
+{
+    display: flex;
+    height: 80%;
+    width: 80%;
+    border:2px solid black;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    
+}
+}
+@media screen and (max-width: 768px) 
+{
+    .content-grid
+{
+    grid-template-rows: 15% 30% 45% 10%;
+}
+header
+{
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-text
+{
+    height: 55%;
+    width: 100%;
+}
+.logo
+{
+    display: flex;
+    width: 45%;
+    height: 100%;
+    justify-content:flex-end;
+    align-items: center;
+
+}
+.logo img
+{
+    height: 70%;
+    width: 40%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+nav
+{
+    height: 50%;
+    width: 100%;
+}
+.nav-bar
+{
+    display: flex;
+    height: 60%;
+    width: 100%;
+    justify-content: center;
+}
+.nav-bar ul
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+}
+.nav-bar ul li
+{
+    display: flex;
+    height: 50%;
+    width: 20%;
+    margin-left:1px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar ul li a
+{
+    margin-right: 3rem;
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul li a:hover
+{
+    color: yellow;
+    border-bottom: 4px solid yellow;
+}
+.socialnets-logos
+{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    
+    justify-content: flex-end;
+}
+.box-logos
+{
+    width: 30%;
+}
+.d-block
+{
+    height: 70vh;
+}
+.socialnets-logos
+{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    
+    justify-content: center;
+
+}
+.box-logos
+{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+}
+.box-logos a
+{
+    width: 100%;
+
+}
+.fa-brands
+{
+    display: flex;
+    height: 60%;
+    width: 50%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin: 1rem;
+}
+/* Section Service */
+.content-grid-Servicio
+{
+    grid-template-rows: 15% 75% 10%;
+}
+
+.body-father-servicio
+{
+    grid-area: bodyservicio;
+}
+.text-body-service
+{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+}
+.text-body-service h2
+{
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    font-size: 30px;
+}
+.text-body-service2
+{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: flex-start;
+}
+.text-body-service2 h4
+{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.content-service
+{
+    display: flex;
+    height:70%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.service1
+{
+    display: flex;
+    height: 80%;
+    width: 50%;
+    border:2px solid black;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    
+}
+.service1 p
+{
+    font-size: 25px;
+}
+.service1 img
+{
+    height: 100%;
+    width: 100%;
+}
+/*Section Coaches*/
+.content-grid-coaches
+{
+   
+    
+    grid-template-rows: 15% 75% 10%;
+   
+}
+.body-coaches-grid
+{
+    grid-area: bodycoach;
+    background-color: blue;
+}
+.text-coach
+{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: flex-end;
+    background-color: pink;
+}
+.text-coach h3
+{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.content-father-coach
+{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+}
+.content-coach-box
+{
+    width: 40%;
+    height: 30%;
+}
+.imgC
+{
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+}
+.imgC img
+{
+    width: 100%;
+    height: 100%;
+}
+.textC
+{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.textC h2
+{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+.textC h3
+{
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+}
+/*Section Perfil*/
+.content-grid-perfil
+{
+    grid-template-rows: 15% 75% 10%;
+}
+.content-body-perfil
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: bodyperfil;
+
+}
+.welcome-perfil
+{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: flex-end;
+}
+.welcome-perfil h2
+{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.father-perfil-img
+{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.content-img-perfil
+{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.content-img-perfil img
+{
+    height: 80%;
+    width: 30%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.info-cuota-content
+{
+    height: 20%;
+    width: 20%;
+}
+.info-perfil
+{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content:center;
+    align-items: center;
+    
+}
+.cuota-inicio
+{
+    display: flex;
+    height: 100%;
+    width: 20%;
+
+    justify-content: center;
+    flex-direction: column;
+    border-right: 1px solid black;
+}
+.cuota-expiracion
+{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 1px solid black;
+}
+.info-perfil ul
+{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+.info-perfil ul li
+{
+    width: 60%;
+    height: 20%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:justify;
+    border-bottom:1px solid black ;
+}
+.fecha
+{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    
+    
+}
+.fecha2
+{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    
+}
+
+
+}
+
+@media screen and (max-width: 1668px) 
+{
+.text h2 a
+{
+    font-size: 30px;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
